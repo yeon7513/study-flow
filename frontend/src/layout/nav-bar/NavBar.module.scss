@@ -1,0 +1,9 @@
+@use '/src/scss/mixin.scss' as m;
+
+.nav {
+  margin-top: 32px;
+
+  > ul {
+    @include m.horizonFlex($jcc: space-evenly);
+  }
+}

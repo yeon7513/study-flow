@@ -1,0 +1,26 @@
+// 가로 정렬
+@mixin horizonFlex($jcc: center, $aic: center, $gap: 16px) {
+  display: flex;
+  justify-content: $jcc;
+  align-items: $aic;
+  gap: $gap;
+}
+
+// 세로 정렬
+@mixin verticalFlex($jcc: center, $aic: center, $gap: 16px) {
+  display: flex;
+  flex-direction: column;
+  justify-content: $jcc;
+  align-items: $aic;
+  gap: $gap;
+}
+
+// 텍스트 줄임
+@mixin textLine($line) {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  line-clamp: $line;
+  -webkit-line-clamp: $line;
+  -webkit-box-orient: vertical;
+}
