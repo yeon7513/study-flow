@@ -3,7 +3,8 @@ package com.project.sf.keywords;
 // 관심 분야 키워드
 public class KeywordsDto {
   Long kwdNo; // 키워드 고유 번호
-  String word; // 관심 분야 단어
+  String word; // 관심 분야 영문 단어 (데이터 전송용)
+  String label; // 키워드명 (화면 렌더링용)
   String createdAt; // 등록된 날짜
 
   public Long getKwdNo() {

@@ -5,7 +5,7 @@ import styles from './Header.module.scss';
 
 function Header() {
   return (
-    <header className={cn(styles.header, 'wrap')}>
+    <header className={cn(styles.header)}>
       <Logo />
       <NavBar />
     </header>

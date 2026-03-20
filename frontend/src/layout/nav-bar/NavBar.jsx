@@ -7,16 +7,16 @@ function NavBar(classname) {
     <nav className={cn(styles.nav, classname)}>
       <ul>
         <li>
-          <Link to="/introduce">소개</Link>
+          <Link to="/introduce">About</Link>
         </li>
         <li>
-          <Link to="/pre-order">사전 예약</Link>
+          <Link to="/trend-keyword">인기 스터디</Link>
+        </li>
+        <li>
+          <Link to="/pre-order">사전 등록</Link>
         </li>
         <li>
           <Link to="/qna">Q&A</Link>
-        </li>
-        <li>
-          <Link to="/support">고객센터</Link>
         </li>
       </ul>
     </nav>
